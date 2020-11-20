@@ -3,10 +3,9 @@ window.addEventListener("load", function(){
         response.json().then(function(json) {
         
             const container = document.getElementById("container");
-             let containerInnerHTML =  "";   
+            let containerInnerHTML =  "";   
             for (item of json) {
-           // (let index = 0; index < json.length; index++) // for this used json[index] instead of item {
-             
+                        
              containerInnerHTML += `
              <div class ="astronaut">
              <div class= "bio">
